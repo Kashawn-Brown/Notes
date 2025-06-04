@@ -1,0 +1,18 @@
+/* Custom styles for the Notes application */
+.note-card {
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.note-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.note-actions {
+    margin-top: 10px;
+}
+
+.note-actions form {
+    display: inline;
+} 
